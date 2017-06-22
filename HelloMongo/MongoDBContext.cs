@@ -15,7 +15,7 @@ namespace HelloMongo
         {
             //var client = new MongoClient(Settings.Default.HelloMongoConnectionString);
             
-            // Added a comment            
+            // Added a comment before the URI
             var connectionString = @"mongodb://rentalAdminUser:rentalAdminUser@localhost:27017/HelloMongoDB";
             
             var mongoUrl = new MongoUrl(connectionString);
